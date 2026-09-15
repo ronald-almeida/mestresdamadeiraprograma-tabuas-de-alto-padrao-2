@@ -39,7 +39,7 @@
     .info ul{margin:0;padding-left:24px}
     .pay{width:calc(100% - 4px);height:59px;margin:0 2px;border:0;border-radius:5px;background:#27b867;color:#fff;font:700 17px "Open Sans",sans-serif,Arial;cursor:pointer}
     .pay:hover{background:#22a75d}.pay:disabled{opacity:.65;cursor:wait}
-    .processor{margin:12px 0 8px;text-align:center;color:#b7c0cb;font-size:15px;font-weight:600}
+    .processor-logo{display:block;width:92px;height:auto;margin:12px auto 8px}
     .legal{text-align:center;color:#91a1b6;font-size:10px;line-height:1.65;padding:0 4px}
     .legal a{color:#7e90a8;text-decoration:none;font-weight:700}
     .feedback{min-height:20px;margin:10px 2px 0;text-align:center;font-size:13px;color:#b42318}
@@ -93,7 +93,7 @@
       </section>
 
       <button id="payButton" class="pay" type="button">Pagar agora</button>
-      <div class="processor">Pagamento seguro via Pix</div>
+      <img class="processor-logo" src="https://assets.kiwify.com.br/extra/footer-kiwify-gray.png" alt="Kiwify">
       <div class="legal">Ao clicar em 'Pagar agora', eu declaro que estou ciente de que esta compra do <strong>Programa Tábuas de Alto Padrão</strong>, no valor de <strong>R$ 398,90</strong>, será processada por meio da integração de pagamento configurada neste checkout, e que os dados informados serão utilizados exclusivamente para geração e identificação da cobrança via Pix.</div>
       <div id="feedback" class="feedback" aria-live="polite"></div>
     </form>
