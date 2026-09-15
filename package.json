@@ -1,0 +1,8 @@
+{
+  "name": "mestres-da-madeira-checkout",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
